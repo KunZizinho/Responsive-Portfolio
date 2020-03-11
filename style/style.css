@@ -1,0 +1,240 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.container{
+  margin: auto;
+  padding: 0px;
+}
+
+#portfolio{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+#header{
+  margin: 0px;
+  padding: 0px;
+}
+
+ /* Add a black background color to the top navigation */
+ #topnav {
+   background-color: #2D2926FF;
+   overflow: hidden;
+   border: solid 1px;
+   padding: 10px;
+   margin: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+ }
+
+  /* Style the links inside the navigation bar */
+  #topnav a {
+    float: left;
+    display: block;
+    color:#FFFFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #pgname{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    color:#FFFFFFFF;
+    font-family: "IM Fell English";
+  }
+
+  #portfolio{
+     margin-top: 0px;
+     font-size: 50px;
+     font-weight: bolder;
+     color:#FFFFFFFF;
+     font-family: "Calligraffitti";
+  }
+
+  /* Change the color of links on hover */
+  #topnav a:hover {
+    background-color: rgb(231, 113, 102);
+    color: black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+   /* Add an active class to highlight the current page */
+   #topnav a.active {
+     background-color: #E94B3CFF;
+     color:#FFFFFFFF;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     font-family: "Calligraffitti";
+   }
+
+   /* Hide the link that should open and close the topnav on small screens */
+   #topnav .icon {
+     display: none;
+   }
+
+   .jumbotron{
+     padding: 5px;
+     margin-bottom: 5px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+   }
+
+
+   #article{
+     width: 100%;
+     padding-top: 5px;
+     margin-top: 5px;
+     border: solid 1px;
+     float: left;
+     /* background-color:#000000FF; */
+     /* color:#FFFFFFFF; */
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+   }
+
+   #profPic {
+     width: 23%;
+     float: left;
+     border: solid 1px;
+     padding: 3px;
+     margin: 10px;
+   }
+
+   #summary{
+     width: 72%;
+     float: left;
+     border: solid 1px;
+     padding: 3px;
+     margin: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     font-family: "IM Fell Great Primer";
+   }
+
+   .mainContent{
+     margin-bottom: 5px;
+     padding: 3px;
+
+   }
+
+   #footer{
+     width: 100%;
+     float: left;
+     background-color:#000000FF;
+     margin-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     padding: 3px;
+   }
+
+  #email, #linkedin{
+    float: left;
+    background: transparent;
+    text-align: left;
+    border: none;
+
+  }
+/* ovdje index stil zavrsava */
+
+/* ovdje bar stil pocinje */
+
+  .bgimg {
+    background-image: url('./slike/CD14419E-77DC-42A9-BE51-6DE573B3EE31.jpg');
+    min-height: 600px;
+    width: 100%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   #commingSoon {
+     font-family: "Raleway", sans-serif;
+     padding-top: 250px;
+     padding-left: 100px;
+     font-size: 150px;
+     font-weight: 150px;
+     color: darkred;
+   }
+
+/* ovdje bar stil zavrsava */
+
+/* ovdje portfolio stil pocinje */
+
+ .row {
+   margin: 8px -16px;
+ }
+
+ /* Dodajte malo prostora IZMEĐU svake sekcije */
+ .row,
+ .row>.column {
+   padding: 8px;
+ }
+
+ /* Stvorite četiri jednaka stupca koji ce stajati jedan pored drugog */
+ .column {
+   float: left;
+   width: 25%;
+ }
+
+ /*  */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ /* sadrzaj */
+ .content {
+   background-color: white;
+   padding: 10px;
+ }
+
+ /* responsive izgled - promjenit ce izgled u dva stupca umjesto četiri stupca */
+ @media screen and (max-width: 900px) {
+   .column {
+     width: 50%;
+   }
+ }
+
+ /* Responsive izgled - čini da se dva stupa naslažu jedan na drugi umjesto jedan na drugi */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+
+
+
+
+
+
+
+
+
